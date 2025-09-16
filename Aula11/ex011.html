@@ -22,7 +22,7 @@
         function Verificar(){
             var res = window.document.getElementById('res')
             var txtPais = window.document.getElementById('txtP')
-            var pais = txtPais.value;
+            var pais = txtPais.value.trim().toLowerCase();
             
             if (pais == "Brasil") {
                 res.innerHTML = `<p>Você é <strong>brasileiro</strong>!</p>`;
