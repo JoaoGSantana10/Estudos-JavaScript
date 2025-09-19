@@ -39,7 +39,7 @@ function verificar() {
             img.setAttribute('src', 'foto-adulto.webp')
         } else {
             // Idosa
-
+            img.setAttribute('src', 'foto-idosa.webp')
         }
     }
     res.style.textAlign = 'center'
