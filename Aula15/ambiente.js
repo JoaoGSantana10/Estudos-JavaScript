@@ -13,7 +13,7 @@ let pos = num.indexOf(8)
 if(pos == -1){
     console.log("o valor não foi encontrado")
 }else {
-    console.log(`O valor do está na posição ${pos}`)
+    console.log(`O valor está na posição ${pos}`)
 }
 
 // se você botar para procurar um número dentro vetor, exemplo: let pos = num.indexOf(4) e ele não existir ele retorna o -1 falando que o valor não foi achado.
