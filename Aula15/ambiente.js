@@ -8,3 +8,6 @@ console.log(`O primeiro valor do vetor é ${num[0]}`)
 for(let pos=0; pos<num.length; pos++){
     console.log(num[pos])
 }
+console.log(`o vetor é: ${num}`)
+let pos = num.indexOf(8)
+console.log(`O valor do 8 está na posição ${pos}`)
