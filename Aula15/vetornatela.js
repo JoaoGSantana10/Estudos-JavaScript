@@ -9,3 +9,6 @@ num.sort()
 for(let pos in num){
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
+console.log(num)
+let pos = num.indexOf(9)
+console.log(`O valor do 9, está na posição ${pos}`)
