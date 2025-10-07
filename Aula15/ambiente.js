@@ -9,5 +9,11 @@ for(let pos=0; pos<num.length; pos++){
     console.log(num[pos])
 }
 console.log(`o vetor é: ${num}`)
-let pos = num.indexOf(8)
-console.log(`O valor do 8 está na posição ${pos}`)
+let pos = num.indexOf(6)
+if(pos == -1){
+    console.log("o valor não foi encontrado")
+}else {
+    console.log(`O valor do 8 está na posição ${pos}`)
+}
+
+// se você botar para procurar um número dentro vetor, exemplo: let pos = num.indexOf(4) e ele não existir ele retorna o -1 falando que o valor não foi achado.
