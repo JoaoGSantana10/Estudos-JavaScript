@@ -5,6 +5,7 @@ function parimpar(n){
         return 'Ímpar!'
     }
 }
+
 let res = parimpar(11)
 console.log(res)
 console.log(parimpar(4))
