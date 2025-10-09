@@ -39,8 +39,17 @@ function finalizar(){
         window.alert('Adicione valores antes de finalizar!')
     } else {
         let tot = valores.length
-        
+        let maior = valores[0]
+        let menor = valores[0]
+        for(let pos in valores){
+            if(valores[pos] > maior)
+                maior = valores[pos]
+            if(valores[pos] < menor)
+                menor = valores[pos]
+        }
         res.innerHTML = ''
-        res.innerHTML += `<p> Ao todo, temos ${tot} números cadastrados.<p>`
+        res.innerHTML += `<p> Ao todo, temos ${tot} números cadastrados.</p>`
+        res.innerHTML += `<p>O maior valor informado foi o número: ${maior}.</p>`
+        res.innerHTML += `<p>O menor valor informado foi o número: ${menor}.</p>`
     }
 }
